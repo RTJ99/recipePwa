@@ -1,0 +1,36 @@
+.sidebar-container {
+  height: 100vh;
+  background-color: rgb(46, 46, 46);
+}
+.nav_pills {
+  margin-top: 15px;
+  /* background-color: rgb(241, 247, 252); */
+  z-index: 100;
+  justify-content: flex-start;
+  width: 800px;
+}
+@media only screen and (max-width: 600px) {
+  .genre-select {
+    font-size: 20px;
+  }
+  .nav_pills {
+    margin-left: 0px !important;
+  }
+}
+.nav.nav-pills .nav-link.active {
+  background-color: rgba(64, 87, 109, 0.07);
+  color: black;
+  font-weight: 600;
+}
+.nav.nav-pills .nav-link {
+  color: #0e1318;
+
+  font-weight: 500;
+}
+
+.nav.nav-pills .nav-link:hover {
+  background-color: rgba(64, 87, 109, 0.07);
+}
+.nav_pills {
+  margin-left: -15px;
+}

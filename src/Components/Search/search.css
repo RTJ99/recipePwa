@@ -1,0 +1,22 @@
+.search-list {
+  padding: 10px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  border-top: 1px solid rgb(226, 226, 226);
+}
+.search-list > h4 {
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+.search-list:hover {
+  cursor: pointer;
+  background-color: rgb(221, 221, 221);
+}
+.search-thumbnail {
+  width: 50px;
+  height: 65px;
+}
+.search-image-dimensions {
+  width: 50px;
+  height: 65px;
+}
